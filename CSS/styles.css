@@ -637,6 +637,9 @@ h4 {
   border-radius: 50%;
   text-align: center;
 }
+.cerrarboton:hover {
+  color: #2196f3;
+}
 .box {
   position: relative;
   margin: 0 auto;
@@ -677,36 +680,30 @@ h4 {
   bottom: 110px;
 }
 .form-correo {
+  box-sizing: border-box;
+
+  position: absolute;
   width: 358px;
   height: 50px;
-  left: 815px;
-  top: 2787px;
-  color: rgba(255, 255, 255, 0.6);
+  left: 5px;
+  top: 40px;
   border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
-  background-color: #2f303a;
-  margin-top: 10px;
 }
 .boton-footer {
+  position: absolute;
   width: 200px;
   height: 50px;
-  left: 1185px;
-  top: 2787px;
-  color: #fff;
+  left: 390px;
+  top: 40px;
   background: #2196f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  padding-top: 12px;
+  padding-left: 20px;
 }
-.icon-suscribirse {
-  position: absolute;
-  left: 83.31%;
-  right: 15.19%;
-  top: 95.53%;
-  bottom: 3.65%;
-  display: inline-block;
-  stroke: currentColor;
-  fill: currentColor;
-}
+
 .form-titulo {
   padding-top: 30px;
   font-family: 'Roboto';
@@ -751,7 +748,13 @@ label {
   border-radius: 4px;
 }
 .text-verificacion {
-  text-align: center;
+  fill: #fff;
+  position: absolute;
+  height: 12px;
+  width: 12px;
+  left: 10%;
+  top: 19%;
+  border-radius: 0px;
 }
 .icon-modal {
   fill: #212121;
@@ -788,4 +791,10 @@ label {
 }
 .icon-modalemail:hover {
   fill: #2196f3;
+}
+.form-modalcom {
+  width: 448px;
+  height: 80px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
 }

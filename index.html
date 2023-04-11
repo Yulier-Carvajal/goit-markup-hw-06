@@ -64,6 +64,9 @@
         </button>
         <div class="backdrop is-hidden" data-modal>
           <div class="modal">
+            <button data-modal-close type="button" class="cerrarboton">
+              X
+            </button>
             <h4 class="form-titulo">
               Deje sus datos, nos contactaremos con usted
             </h4>
@@ -91,7 +94,7 @@
             <label>
               Comentarios
               <textarea
-                class="form-modal"
+                class="form-modalcom"
                 name="comentarios"
                 rows="5"
                 placeholder="Introduzca el texto"
@@ -101,7 +104,7 @@
             <label class="text-verificacion">
               Estoy de acuerdo con el boletín informativo y acepto los Términos
               y Condiciones
-              <svg class="check-verificacion">
+              <svg class="check-verificacion" type="checkbox">
                 <use
                   href="./images/icons.svg#icon-Vector-3"
                   type="checkbox"
@@ -379,7 +382,7 @@
               </label>
               <button class="boton-footer" type="submit">
                 Suscríbase
-                <svg class="icon-suscribirse">
+                <svg>
                   <use href=".//images/icons.svg#icon-enviar-cono"></use>
                 </svg>
               </button>
