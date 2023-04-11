@@ -735,7 +735,7 @@ label {
   margin-left: 40px;
 }
 .check-verificacion {
-  fill: #2196f3;
+  fill: #212121;
   position: absolute;
   width: 16px;
   height: 15px;
@@ -762,6 +762,9 @@ label {
   top: 19%;
   border-radius: 0px;
 }
+.icon-modal:hover {
+  background: #2196f3;
+}
 .icon-modaltel {
   fill: #212121;
   position: absolute;
@@ -771,6 +774,9 @@ label {
   top: 34%;
   border-radius: 0px;
 }
+.icon-modaltel:hover {
+  background: #2196f3;
+}
 .icon-modalemail {
   fill: #212121;
   position: absolute;
@@ -779,4 +785,7 @@ label {
   left: 10%;
   top: 48%;
   border-radius: 0px;
+}
+.icon-modalemail:hover {
+  background: #2196f3;
 }
