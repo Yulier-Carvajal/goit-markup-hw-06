@@ -702,6 +702,7 @@ h4 {
   border-radius: 4px;
   padding-top: 12px;
   padding-left: 20px;
+  color: #fff;
 }
 
 .form-titulo {
@@ -797,4 +798,12 @@ label {
   height: 80px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
+}
+.icon-enviar {
+  position: absolute;
+  fill: #fff;
+  height: 24px;
+  width: 24px;
+  left: 405px;
+  top: 40px;
 }
