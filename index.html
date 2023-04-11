@@ -24,13 +24,13 @@
           <a href="#" class="titulo">WebStudio</a>
           <ul class="nav-list">
             <li class="nav-item active">
-              <a href="./index.html" >Estudio </a>
+              <a href="./index.html">Estudio </a>
             </li>
             <li class="nav-item">
               <a href="portafolio.html ">Portafolio </a>
             </li>
             <li class="nav-item">
-              <a href="#" ></a>Contactos</a>
+              <a href="#">Contactos</a>
             </li>
           </ul>
         </nav>
@@ -64,9 +64,56 @@
         </button>
         <div class="backdrop is-hidden" data-modal>
           <div class="modal">
-            <button data-modal-close type="button" class="cerrarboton">
-              X
-            </button>
+            <h4 class="form-titulo">
+              Deje sus datos, nos contactaremos con usted
+            </h4>
+            <label>
+              Nombre
+              <input class="form-modal" type="text" name="nombre" />
+              <svg class="icon-modal">
+                <use href="./images/icons.svg#icon-Vector"></use>
+              </svg>
+            </label>
+            <label>
+              Telefono
+              <input
+                class="form-modal"
+                type="tel"
+                name="Telefono"
+                placeholder
+                svg
+                use="./icons# icon-Vector"
+              />
+            </label>
+            <label>
+              Email
+              <input
+                class="form-modal"
+                type="email"
+                name="Email"
+                placeholder
+                svg
+                use="./icons# icon-Vector"
+              />
+            </label>
+            <label>
+              Comentarios
+              <textarea
+                class="form-modal"
+                name="comentarios"
+                rows="5"
+                placeholder="Introduzca el texto"
+              >
+              </textarea>
+            </label>
+            <label class="text-verificacion">
+              Estoy de acuerdo con el boletín informativo y acepto los Términos
+              y Condiciones
+              <svg class="check-verificacion">
+                <use href="./images/icons.svg#icon-Vector-3"></use>
+              </svg>
+            </label>
+            <button class="boton-modal" type="submit">Envíar</button>
           </div>
         </div>
       </section>
@@ -343,7 +390,7 @@
               </button>
             </div>
           </ul>
-                  </div>
+        </div>
       </address>
     </footer>
     <script src="./js/modal.js"></script>

@@ -703,5 +703,61 @@ h4 {
   right: 15.19%;
   top: 95.53%;
   bottom: 3.65%;
-  background: #ffffff;
+  display: inline-block;
+  stroke: currentColor;
+  fill: currentColor;
+}
+.form-titulo {
+  padding-top: 30px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  margin-bottom: 28px;
+}
+.form-modal {
+  box-sizing: border-box;
+  width: 448px;
+  height: 40px;
+  left: 576px;
+  top: 314px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+}
+label {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 28px;
+  margin-left: 40px;
+}
+.check-verificacion {
+  fill: #2196f3;
+  position: absolute;
+  width: 16px;
+  height: 15px;
+  gap: 8px;
+}
+.boton-modal {
+  position: absolute;
+  margin-left: 164px;
+  width: 200px;
+  height: 50px;
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+.text-verificacion {
+  text-align: center;
+}
+.icon-modal {
+  fill: #212121;
+  height: 12px;
+  width: 12px;
+  left: 3px;
+  top: 3px;
+  border-radius: 0px;
 }
