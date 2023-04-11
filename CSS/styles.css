@@ -751,10 +751,6 @@ label {
 .text-verificacion {
   fill: #fff;
   position: absolute;
-  height: 12px;
-  width: 12px;
-  left: 10%;
-  top: 19%;
   border-radius: 0px;
 }
 .icon-modal {
