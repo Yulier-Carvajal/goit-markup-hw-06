@@ -763,7 +763,7 @@ label {
   border-radius: 0px;
 }
 .icon-modal:hover {
-  background: #2196f3;
+  fill: #2196f3;
 }
 .icon-modaltel {
   fill: #212121;
@@ -775,7 +775,7 @@ label {
   border-radius: 0px;
 }
 .icon-modaltel:hover {
-  background: #2196f3;
+  fill: #2196f3;
 }
 .icon-modalemail {
   fill: #212121;
@@ -787,5 +787,5 @@ label {
   border-radius: 0px;
 }
 .icon-modalemail:hover {
-  background: #2196f3;
+  fill: #2196f3;
 }
