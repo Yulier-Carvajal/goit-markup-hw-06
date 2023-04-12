@@ -740,6 +740,16 @@ h4 {
   margin-bottom: 28px;
   margin-left: 40px;
 }
+.icon-modal {
+  color: var(--brand-color);
+  position: absolute;
+  height: 12px;
+  width: 12px;
+  left: 12px;
+  top: 8px;
+  border-radius: 0px;
+  padding-left: 30px;
+}
 .check-verificacion {
   fill: #212121;
   position: absolute;
@@ -762,16 +772,6 @@ h4 {
   fill: #fff;
   position: absolute;
   border-radius: 0px;
-}
-.icon-modal {
-  fill: #212121;
-  position: absolute;
-  height: 12px;
-  width: 12px;
-  left: 8px;
-  top: 8px;
-  border-radius: 0px;
-  padding-left: 30px;
 }
 
 .form-modalcom {
