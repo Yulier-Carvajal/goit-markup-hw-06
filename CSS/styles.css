@@ -726,7 +726,15 @@ h4 {
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
 }
-label {
+.form-modal:focus-visible {
+  outline: none;
+  border: 1px solid var(--brand-color);
+}
+.form-modal:focus-visible + .icon-modal {
+  color: var(--brand-color);
+}
+.label {
+  position: relative;
   display: flex;
   flex-direction: column;
   margin-bottom: 28px;
@@ -760,37 +768,12 @@ label {
   position: absolute;
   height: 12px;
   width: 12px;
-  left: 10%;
-  top: 19%;
+  left: 8px;
+  top: 8px;
   border-radius: 0px;
+  padding-left: 30px;
 }
-.icon-modal:hover {
-  fill: #2196f3;
-}
-.icon-modaltel {
-  fill: #212121;
-  position: absolute;
-  height: 12px;
-  width: 12px;
-  left: 10%;
-  top: 34%;
-  border-radius: 0px;
-}
-.icon-modaltel:hover {
-  fill: #2196f3;
-}
-.icon-modalemail {
-  fill: #212121;
-  position: absolute;
-  height: 12px;
-  width: 12px;
-  left: 10%;
-  top: 48%;
-  border-radius: 0px;
-}
-.icon-modalemail:hover {
-  fill: #2196f3;
-}
+
 .form-modalcom {
   width: 448px;
   height: 80px;
