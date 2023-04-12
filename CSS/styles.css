@@ -721,8 +721,6 @@ h4 {
   box-sizing: border-box;
   width: 448px;
   height: 40px;
-  left: 576px;
-  top: 314px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
 }
@@ -733,6 +731,7 @@ h4 {
 .form-modal:focus-visible + .icon-modal {
   color: var(--brand-color);
 }
+
 .label {
   position: relative;
   display: flex;
@@ -746,8 +745,14 @@ h4 {
   height: 12px;
   width: 12px;
   left: 12px;
-  top: 8px;
+  top: 30px;
   border-radius: 0px;
+}
+.form-modalcom {
+  width: 448px;
+  height: 80px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
 }
 .check-verificacion {
   fill: #212121;
@@ -755,6 +760,16 @@ h4 {
   width: 16px;
   height: 15px;
   gap: 8px;
+}
+.check-verificacion:focus-visible {
+  color: var(--brand-color);
+}
+.text-verificacion {
+  fill: #fff;
+  position: absolute;
+  flex-direction: column;
+  border-radius: 0px;
+  margin-left: 45px;
 }
 .boton-modal {
   position: absolute;
@@ -767,19 +782,7 @@ h4 {
   color: #ffffff;
   bottom: 40px;
 }
-.text-verificacion {
-  fill: #fff;
-  position: absolute;
-  border-radius: 0px;
-}
 
-.form-modalcom {
-  position: absolute;
-  width: 448px;
-  height: 80px;
-  border: 1px solid rgba(33, 33, 33, 0.2);
-  border-radius: 4px;
-}
 .icon-enviar {
   position: absolute;
   fill: #fff;
