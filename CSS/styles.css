@@ -693,8 +693,6 @@ h4 {
   background: #2196f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-  padding-top: 12px;
-  padding-left: 20px;
   color: #fff;
 }
 
@@ -778,7 +776,6 @@ h4 {
 }
 
 .icon-enviar {
-  position: absolute;
   fill: #fff;
   height: 24px;
   width: 24px;
