@@ -394,14 +394,11 @@ h4 {
 .contactos {
   word-spacing: 9px;
 }
-.icon-footer {
-  width: 1200px;
-  position: absolute;
-  left: 400px;
+.footer-container {
+  display: flex;
+  justify-content: space-evenly;
 }
-.icon-sectionfooter {
-  position: relative;
-}
+
 .contact-correo {
   color: rgba(255, 255, 255, 0.6);
   font-family: 'Roboto';
@@ -674,11 +671,7 @@ h4 {
   letter-spacing: 0.03em;
   color: #ffffff;
 }
-.form-footer {
-  position: relative;
-  left: 640px;
-  bottom: 110px;
-}
+
 .form-correo {
   box-sizing: border-box;
 
@@ -747,6 +740,7 @@ h4 {
   left: 12px;
   top: 30px;
   border-radius: 0px;
+  padding-left: 30px;
 }
 .form-modalcom {
   width: 448px;
