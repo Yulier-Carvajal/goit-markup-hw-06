@@ -674,22 +674,15 @@ h4 {
 
 .form-correo {
   box-sizing: border-box;
-
-  position: absolute;
   width: 358px;
   height: 50px;
-  left: 5px;
-  top: 40px;
   border: 1px solid rgba(255, 255, 255, 0.3);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
 }
 .boton-footer {
-  position: absolute;
   width: 200px;
   height: 50px;
-  left: 390px;
-  top: 40px;
   background: #2196f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
@@ -751,7 +744,6 @@ h4 {
   position: absolute;
   width: 16px;
   height: 15px;
-  gap: 8px;
 }
 .check-verificacion:focus-visible {
   color: var(--brand-color);
@@ -772,13 +764,10 @@ h4 {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   color: #ffffff;
-  bottom: 40px;
 }
 
 .icon-enviar {
   fill: #fff;
-  height: 24px;
-  width: 24px;
-  left: 405px;
-  top: 40px;
+  height: 15px;
+  width: 15px;
 }
